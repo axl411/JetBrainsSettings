@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="import" value="import $END$ from $PACKAGE$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="import" value="import $END$ from '$PACKAGE$'" description="" toReformat="false" toShortenFQNames="true">
     <variable name="PACKAGE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
